@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Seat Reservations</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>Reserve Your Seats</h1>
+
+    <div id="stage">Stage</div>
+
+    <!-- HTML structure -->
+    <div id="seating">
+      <section id="left">
+        <!-- Use JavaScript to replace these -->
+      </section>
+
+      <section id="middle">
+        <!-- Use JavaScript to replace these -->
+      </section>
+
+      <section id="right">
+        <!-- Use JavaScript to replace these -->
+      </section>
+    </div>
+
+    <a href="#" id="reserve">Reserve Seats</a>
+
+    <section id="resform">
+      <h2>Complete This Form To Confirm Your Reservation</h2>
+
+      <form id="confirmres">
+        <p id="selectedseats">You have selected X Seats</p>
+
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          placeholder="First Name"
+          required
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          name="lname"
+          id="lname"
+          placeholder="Last Name"
+          required
+        />
+
+        <input
+          type="submit"
+          name="send"
+          id="confirmbtn"
+          value="Confirm Reservation"
+        />
+        <p>Or <a href="#" id="cancel">cancel</a> and choose different seats</p>
+      </form>
+      <p id="error">
+        You need to select seat/s to reserve<br />
+        <a href="#">Close</a>
+      </p>
+    </section>
+
+    <script src="./myscript.js"></script>
+  </body>
+</html>
